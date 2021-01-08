@@ -138,7 +138,7 @@
             this.MaximizeBox = false;
             this.Name = "SifreYarat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Random Şifre";
+            this.Text = "Rastgele Şifre";
             this.ResumeLayout(false);
             this.PerformLayout();
 

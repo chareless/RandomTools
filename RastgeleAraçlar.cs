@@ -83,7 +83,7 @@ namespace SomeGames
 
         private void zarAtButton_Click(object sender, EventArgs e)
         {
-            string zarGirisi = Interaction.InputBox("Kaç Tane Zar Atılacak?", "","1 veya 2", 600, 300);
+            string zarGirisi = Interaction.InputBox("Kaç Tane Zar Atılacak?", "Zar At","1 veya 2", 600, 300);
             if(zarGirisi == "1" || zarGirisi == "2")
             {
                 if (Convert.ToInt32(zarGirisi) == 1)

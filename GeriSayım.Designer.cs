@@ -114,7 +114,7 @@ namespace SomeGames
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GeriSayım";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GeriSayım";
+            this.Text = "Geri Sayım";
             this.ResumeLayout(false);
             this.PerformLayout();
 
