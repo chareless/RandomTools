@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "5.0";
+        public static string guncelSurum = "6.0";
 
         private void InternetKontrol()
         {
@@ -202,6 +202,12 @@ namespace SomeGames
         {
             GeriSayım f16 = new GeriSayım();
             f16.Show();
+        }
+
+        private void kitleButton_Click(object sender, EventArgs e)
+        {
+            Kilo f17 = new Kilo();
+            f17.Show();
         }
     }
 }

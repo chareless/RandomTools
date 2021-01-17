@@ -53,6 +53,7 @@
             this.ipButton = new System.Windows.Forms.Button();
             this.koronaButton = new System.Windows.Forms.Button();
             this.geriSayimButton = new System.Windows.Forms.Button();
+            this.kitleButton = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             this.yazıTuraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.yazıTuraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.yazıTuraButton.ForeColor = System.Drawing.Color.Gold;
-            this.yazıTuraButton.Location = new System.Drawing.Point(32, 54);
+            this.yazıTuraButton.Location = new System.Drawing.Point(30, 50);
             this.yazıTuraButton.Margin = new System.Windows.Forms.Padding(2);
             this.yazıTuraButton.Name = "yazıTuraButton";
             this.yazıTuraButton.Size = new System.Drawing.Size(112, 40);
@@ -77,7 +78,7 @@
             this.tkmButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.tkmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tkmButton.ForeColor = System.Drawing.Color.Gold;
-            this.tkmButton.Location = new System.Drawing.Point(160, 54);
+            this.tkmButton.Location = new System.Drawing.Point(160, 50);
             this.tkmButton.Margin = new System.Windows.Forms.Padding(2);
             this.tkmButton.Name = "tkmButton";
             this.tkmButton.Size = new System.Drawing.Size(112, 40);
@@ -92,7 +93,7 @@
             this.kuraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.kuraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kuraButton.ForeColor = System.Drawing.Color.Gold;
-            this.kuraButton.Location = new System.Drawing.Point(421, 54);
+            this.kuraButton.Location = new System.Drawing.Point(420, 50);
             this.kuraButton.Margin = new System.Windows.Forms.Padding(2);
             this.kuraButton.Name = "kuraButton";
             this.kuraButton.Size = new System.Drawing.Size(112, 40);
@@ -107,7 +108,7 @@
             this.rastgeleNumaraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.rastgeleNumaraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rastgeleNumaraButton.ForeColor = System.Drawing.Color.Gold;
-            this.rastgeleNumaraButton.Location = new System.Drawing.Point(32, 114);
+            this.rastgeleNumaraButton.Location = new System.Drawing.Point(30, 110);
             this.rastgeleNumaraButton.Margin = new System.Windows.Forms.Padding(2);
             this.rastgeleNumaraButton.Name = "rastgeleNumaraButton";
             this.rastgeleNumaraButton.Size = new System.Drawing.Size(112, 40);
@@ -122,7 +123,7 @@
             this.zarAtButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.zarAtButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zarAtButton.ForeColor = System.Drawing.Color.Gold;
-            this.zarAtButton.Location = new System.Drawing.Point(290, 54);
+            this.zarAtButton.Location = new System.Drawing.Point(290, 50);
             this.zarAtButton.Margin = new System.Windows.Forms.Padding(2);
             this.zarAtButton.Name = "zarAtButton";
             this.zarAtButton.Size = new System.Drawing.Size(112, 40);
@@ -137,7 +138,7 @@
             this.kronometreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.kronometreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kronometreButton.ForeColor = System.Drawing.Color.Gold;
-            this.kronometreButton.Location = new System.Drawing.Point(160, 236);
+            this.kronometreButton.Location = new System.Drawing.Point(160, 230);
             this.kronometreButton.Margin = new System.Windows.Forms.Padding(2);
             this.kronometreButton.Name = "kronometreButton";
             this.kronometreButton.Size = new System.Drawing.Size(112, 40);
@@ -152,7 +153,7 @@
             this.hatirlaticiButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.hatirlaticiButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hatirlaticiButton.ForeColor = System.Drawing.Color.Gold;
-            this.hatirlaticiButton.Location = new System.Drawing.Point(290, 236);
+            this.hatirlaticiButton.Location = new System.Drawing.Point(290, 230);
             this.hatirlaticiButton.Margin = new System.Windows.Forms.Padding(2);
             this.hatirlaticiButton.Name = "hatirlaticiButton";
             this.hatirlaticiButton.Size = new System.Drawing.Size(112, 40);
@@ -167,7 +168,7 @@
             this.hesapMakinesiButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.hesapMakinesiButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hesapMakinesiButton.ForeColor = System.Drawing.Color.Gold;
-            this.hesapMakinesiButton.Location = new System.Drawing.Point(32, 177);
+            this.hesapMakinesiButton.Location = new System.Drawing.Point(30, 170);
             this.hesapMakinesiButton.Margin = new System.Windows.Forms.Padding(2);
             this.hesapMakinesiButton.Name = "hesapMakinesiButton";
             this.hesapMakinesiButton.Size = new System.Drawing.Size(112, 40);
@@ -238,7 +239,7 @@
             this.paraSayButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.paraSayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.paraSayButton.ForeColor = System.Drawing.Color.Gold;
-            this.paraSayButton.Location = new System.Drawing.Point(160, 177);
+            this.paraSayButton.Location = new System.Drawing.Point(160, 170);
             this.paraSayButton.Margin = new System.Windows.Forms.Padding(2);
             this.paraSayButton.Name = "paraSayButton";
             this.paraSayButton.Size = new System.Drawing.Size(112, 40);
@@ -253,7 +254,7 @@
             this.listeHesaplaButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.listeHesaplaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.listeHesaplaButton.ForeColor = System.Drawing.Color.Gold;
-            this.listeHesaplaButton.Location = new System.Drawing.Point(290, 177);
+            this.listeHesaplaButton.Location = new System.Drawing.Point(290, 170);
             this.listeHesaplaButton.Margin = new System.Windows.Forms.Padding(2);
             this.listeHesaplaButton.Name = "listeHesaplaButton";
             this.listeHesaplaButton.Size = new System.Drawing.Size(112, 40);
@@ -268,7 +269,7 @@
             this.notButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.notButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.notButton.ForeColor = System.Drawing.Color.Gold;
-            this.notButton.Location = new System.Drawing.Point(290, 114);
+            this.notButton.Location = new System.Drawing.Point(290, 110);
             this.notButton.Margin = new System.Windows.Forms.Padding(2);
             this.notButton.Name = "notButton";
             this.notButton.Size = new System.Drawing.Size(112, 40);
@@ -283,7 +284,7 @@
             this.sifreYaratButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.sifreYaratButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sifreYaratButton.ForeColor = System.Drawing.Color.Gold;
-            this.sifreYaratButton.Location = new System.Drawing.Point(160, 114);
+            this.sifreYaratButton.Location = new System.Drawing.Point(160, 110);
             this.sifreYaratButton.Margin = new System.Windows.Forms.Padding(2);
             this.sifreYaratButton.Name = "sifreYaratButton";
             this.sifreYaratButton.Size = new System.Drawing.Size(112, 40);
@@ -298,7 +299,7 @@
             this.kurButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.kurButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kurButton.ForeColor = System.Drawing.Color.Gold;
-            this.kurButton.Location = new System.Drawing.Point(421, 177);
+            this.kurButton.Location = new System.Drawing.Point(420, 170);
             this.kurButton.Margin = new System.Windows.Forms.Padding(2);
             this.kurButton.Name = "kurButton";
             this.kurButton.Size = new System.Drawing.Size(112, 40);
@@ -311,7 +312,7 @@
             // 
             this.surumLabel.AutoSize = true;
             this.surumLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.surumLabel.Location = new System.Drawing.Point(480, 301);
+            this.surumLabel.Location = new System.Drawing.Point(477, 345);
             this.surumLabel.Name = "surumLabel";
             this.surumLabel.Size = new System.Drawing.Size(56, 20);
             this.surumLabel.TabIndex = 15;
@@ -321,7 +322,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(12, 301);
+            this.label1.Location = new System.Drawing.Point(9, 345);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 20);
             this.label1.TabIndex = 16;
@@ -331,7 +332,7 @@
             // 
             this.netLabel.AutoSize = true;
             this.netLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.netLabel.Location = new System.Drawing.Point(168, 301);
+            this.netLabel.Location = new System.Drawing.Point(165, 345);
             this.netLabel.Name = "netLabel";
             this.netLabel.Size = new System.Drawing.Size(54, 20);
             this.netLabel.TabIndex = 17;
@@ -343,7 +344,7 @@
             this.ipButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.ipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ipButton.ForeColor = System.Drawing.Color.Gold;
-            this.ipButton.Location = new System.Drawing.Point(421, 236);
+            this.ipButton.Location = new System.Drawing.Point(420, 230);
             this.ipButton.Margin = new System.Windows.Forms.Padding(2);
             this.ipButton.Name = "ipButton";
             this.ipButton.Size = new System.Drawing.Size(112, 40);
@@ -358,7 +359,7 @@
             this.koronaButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.koronaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.koronaButton.ForeColor = System.Drawing.Color.Gold;
-            this.koronaButton.Location = new System.Drawing.Point(421, 114);
+            this.koronaButton.Location = new System.Drawing.Point(420, 110);
             this.koronaButton.Margin = new System.Windows.Forms.Padding(2);
             this.koronaButton.Name = "koronaButton";
             this.koronaButton.Size = new System.Drawing.Size(112, 40);
@@ -373,7 +374,7 @@
             this.geriSayimButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.geriSayimButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.geriSayimButton.ForeColor = System.Drawing.Color.Gold;
-            this.geriSayimButton.Location = new System.Drawing.Point(32, 236);
+            this.geriSayimButton.Location = new System.Drawing.Point(30, 230);
             this.geriSayimButton.Margin = new System.Windows.Forms.Padding(2);
             this.geriSayimButton.Name = "geriSayimButton";
             this.geriSayimButton.Size = new System.Drawing.Size(112, 40);
@@ -382,12 +383,28 @@
             this.geriSayimButton.UseVisualStyleBackColor = false;
             this.geriSayimButton.Click += new System.EventHandler(this.geriSayimButton_Click);
             // 
+            // kitleButton
+            // 
+            this.kitleButton.BackColor = System.Drawing.Color.Firebrick;
+            this.kitleButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.kitleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kitleButton.ForeColor = System.Drawing.Color.Gold;
+            this.kitleButton.Location = new System.Drawing.Point(30, 290);
+            this.kitleButton.Margin = new System.Windows.Forms.Padding(2);
+            this.kitleButton.Name = "kitleButton";
+            this.kitleButton.Size = new System.Drawing.Size(112, 40);
+            this.kitleButton.TabIndex = 22;
+            this.kitleButton.Text = "İdeal Kilo";
+            this.kitleButton.UseVisualStyleBackColor = false;
+            this.kitleButton.Click += new System.EventHandler(this.kitleButton_Click);
+            // 
             // RastgeleAraçlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(559, 335);
+            this.ClientSize = new System.Drawing.Size(559, 374);
+            this.Controls.Add(this.kitleButton);
             this.Controls.Add(this.geriSayimButton);
             this.Controls.Add(this.koronaButton);
             this.Controls.Add(this.ipButton);
@@ -447,6 +464,7 @@
         private System.Windows.Forms.Button ipButton;
         private System.Windows.Forms.Button koronaButton;
         private System.Windows.Forms.Button geriSayimButton;
+        private System.Windows.Forms.Button kitleButton;
     }
 }
 
