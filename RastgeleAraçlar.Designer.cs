@@ -98,7 +98,7 @@
             this.kuraButton.Margin = new System.Windows.Forms.Padding(2);
             this.kuraButton.Name = "kuraButton";
             this.kuraButton.Size = new System.Drawing.Size(112, 40);
-            this.kuraButton.TabIndex = 5;
+            this.kuraButton.TabIndex = 4;
             this.kuraButton.Text = "Kura Çek";
             this.kuraButton.UseVisualStyleBackColor = false;
             this.kuraButton.Click += new System.EventHandler(this.kuraButton_Click);
@@ -113,7 +113,7 @@
             this.rastgeleNumaraButton.Margin = new System.Windows.Forms.Padding(2);
             this.rastgeleNumaraButton.Name = "rastgeleNumaraButton";
             this.rastgeleNumaraButton.Size = new System.Drawing.Size(112, 40);
-            this.rastgeleNumaraButton.TabIndex = 4;
+            this.rastgeleNumaraButton.TabIndex = 5;
             this.rastgeleNumaraButton.Text = "Rastgele Numara";
             this.rastgeleNumaraButton.UseVisualStyleBackColor = false;
             this.rastgeleNumaraButton.Click += new System.EventHandler(this.rastgeleNumaraButton_Click);
@@ -143,7 +143,7 @@
             this.kronometreButton.Margin = new System.Windows.Forms.Padding(2);
             this.kronometreButton.Name = "kronometreButton";
             this.kronometreButton.Size = new System.Drawing.Size(112, 40);
-            this.kronometreButton.TabIndex = 6;
+            this.kronometreButton.TabIndex = 14;
             this.kronometreButton.Text = "Kronometre";
             this.kronometreButton.UseVisualStyleBackColor = false;
             this.kronometreButton.Click += new System.EventHandler(this.kronometreButton_Click);
@@ -158,7 +158,7 @@
             this.hatirlaticiButton.Margin = new System.Windows.Forms.Padding(2);
             this.hatirlaticiButton.Name = "hatirlaticiButton";
             this.hatirlaticiButton.Size = new System.Drawing.Size(112, 40);
-            this.hatirlaticiButton.TabIndex = 7;
+            this.hatirlaticiButton.TabIndex = 15;
             this.hatirlaticiButton.Text = "Hatırlatıcı";
             this.hatirlaticiButton.UseVisualStyleBackColor = false;
             this.hatirlaticiButton.Click += new System.EventHandler(this.hatirlaticiButton_Click);
@@ -173,7 +173,7 @@
             this.hesapMakinesiButton.Margin = new System.Windows.Forms.Padding(2);
             this.hesapMakinesiButton.Name = "hesapMakinesiButton";
             this.hesapMakinesiButton.Size = new System.Drawing.Size(112, 40);
-            this.hesapMakinesiButton.TabIndex = 8;
+            this.hesapMakinesiButton.TabIndex = 9;
             this.hesapMakinesiButton.Text = "Hesap Makinesi";
             this.hesapMakinesiButton.UseVisualStyleBackColor = false;
             this.hesapMakinesiButton.Click += new System.EventHandler(this.hesapMakinesiButton_Click);
@@ -274,7 +274,7 @@
             this.notButton.Margin = new System.Windows.Forms.Padding(2);
             this.notButton.Name = "notButton";
             this.notButton.Size = new System.Drawing.Size(112, 40);
-            this.notButton.TabIndex = 12;
+            this.notButton.TabIndex = 7;
             this.notButton.Text = "Kayıt Defteri";
             this.notButton.UseVisualStyleBackColor = false;
             this.notButton.Click += new System.EventHandler(this.notButton_Click);
@@ -289,7 +289,7 @@
             this.sifreYaratButton.Margin = new System.Windows.Forms.Padding(2);
             this.sifreYaratButton.Name = "sifreYaratButton";
             this.sifreYaratButton.Size = new System.Drawing.Size(112, 40);
-            this.sifreYaratButton.TabIndex = 13;
+            this.sifreYaratButton.TabIndex = 6;
             this.sifreYaratButton.Text = "Rastgele Şifre";
             this.sifreYaratButton.UseVisualStyleBackColor = false;
             this.sifreYaratButton.Click += new System.EventHandler(this.sifreYaratButton_Click);
@@ -304,7 +304,7 @@
             this.kurButton.Margin = new System.Windows.Forms.Padding(2);
             this.kurButton.Name = "kurButton";
             this.kurButton.Size = new System.Drawing.Size(112, 40);
-            this.kurButton.TabIndex = 14;
+            this.kurButton.TabIndex = 12;
             this.kurButton.Text = "Döviz Kuru";
             this.kurButton.UseVisualStyleBackColor = false;
             this.kurButton.Click += new System.EventHandler(this.kurButton_Click);
@@ -349,7 +349,7 @@
             this.ipButton.Margin = new System.Windows.Forms.Padding(2);
             this.ipButton.Name = "ipButton";
             this.ipButton.Size = new System.Drawing.Size(112, 40);
-            this.ipButton.TabIndex = 19;
+            this.ipButton.TabIndex = 16;
             this.ipButton.Text = "İp Adresim";
             this.ipButton.UseVisualStyleBackColor = false;
             this.ipButton.Click += new System.EventHandler(this.ipButton_Click);
@@ -364,7 +364,7 @@
             this.koronaButton.Margin = new System.Windows.Forms.Padding(2);
             this.koronaButton.Name = "koronaButton";
             this.koronaButton.Size = new System.Drawing.Size(112, 40);
-            this.koronaButton.TabIndex = 20;
+            this.koronaButton.TabIndex = 8;
             this.koronaButton.Text = "Korona";
             this.koronaButton.UseVisualStyleBackColor = false;
             this.koronaButton.Click += new System.EventHandler(this.koronaButton_Click);
@@ -379,7 +379,7 @@
             this.geriSayimButton.Margin = new System.Windows.Forms.Padding(2);
             this.geriSayimButton.Name = "geriSayimButton";
             this.geriSayimButton.Size = new System.Drawing.Size(112, 40);
-            this.geriSayimButton.TabIndex = 21;
+            this.geriSayimButton.TabIndex = 13;
             this.geriSayimButton.Text = "Geri Sayım";
             this.geriSayimButton.UseVisualStyleBackColor = false;
             this.geriSayimButton.Click += new System.EventHandler(this.geriSayimButton_Click);
@@ -394,7 +394,7 @@
             this.kitleButton.Margin = new System.Windows.Forms.Padding(2);
             this.kitleButton.Name = "kitleButton";
             this.kitleButton.Size = new System.Drawing.Size(112, 40);
-            this.kitleButton.TabIndex = 22;
+            this.kitleButton.TabIndex = 17;
             this.kitleButton.Text = "İdeal Kilo";
             this.kitleButton.UseVisualStyleBackColor = false;
             this.kitleButton.Click += new System.EventHandler(this.kitleButton_Click);
@@ -409,7 +409,7 @@
             this.aritmetikButton.Margin = new System.Windows.Forms.Padding(2);
             this.aritmetikButton.Name = "aritmetikButton";
             this.aritmetikButton.Size = new System.Drawing.Size(112, 40);
-            this.aritmetikButton.TabIndex = 25;
+            this.aritmetikButton.TabIndex = 18;
             this.aritmetikButton.Text = "Aritmetik İşlemler";
             this.aritmetikButton.UseVisualStyleBackColor = false;
             this.aritmetikButton.Click += new System.EventHandler(this.aritmetikButton_Click);

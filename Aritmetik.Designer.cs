@@ -46,7 +46,7 @@ namespace SomeGames
             this.hesaplaButton.Margin = new System.Windows.Forms.Padding(2);
             this.hesaplaButton.Name = "hesaplaButton";
             this.hesaplaButton.Size = new System.Drawing.Size(172, 46);
-            this.hesaplaButton.TabIndex = 5;
+            this.hesaplaButton.TabIndex = 1;
             this.hesaplaButton.Text = "HESAPLA";
             this.hesaplaButton.UseVisualStyleBackColor = false;
             this.hesaplaButton.Click += new System.EventHandler(this.hesaplaButton_Click);
@@ -59,7 +59,7 @@ namespace SomeGames
             this.sonucTextBox.Name = "sonucTextBox";
             this.sonucTextBox.ReadOnly = true;
             this.sonucTextBox.Size = new System.Drawing.Size(172, 22);
-            this.sonucTextBox.TabIndex = 4;
+            this.sonucTextBox.TabIndex = 2;
             // 
             // islemTextBox
             // 
@@ -68,7 +68,7 @@ namespace SomeGames
             this.islemTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.islemTextBox.Name = "islemTextBox";
             this.islemTextBox.Size = new System.Drawing.Size(172, 22);
-            this.islemTextBox.TabIndex = 3;
+            this.islemTextBox.TabIndex = 0;
             this.islemTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.islemTextBox_KeyPress);
             // 
             // Aritmetik

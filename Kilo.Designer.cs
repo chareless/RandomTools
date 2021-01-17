@@ -58,7 +58,7 @@ namespace SomeGames
             this.hesaplaButton.Location = new System.Drawing.Point(308, 125);
             this.hesaplaButton.Name = "hesaplaButton";
             this.hesaplaButton.Size = new System.Drawing.Size(111, 32);
-            this.hesaplaButton.TabIndex = 0;
+            this.hesaplaButton.TabIndex = 4;
             this.hesaplaButton.Text = "HESAPLA";
             this.hesaplaButton.UseVisualStyleBackColor = false;
             this.hesaplaButton.Click += new System.EventHandler(this.hesaplaButton_Click);
@@ -71,7 +71,7 @@ namespace SomeGames
             this.label1.Location = new System.Drawing.Point(27, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 20);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 5;
             this.label1.Text = "Cinsiyet :";
             // 
             // boyTextBox
@@ -92,7 +92,7 @@ namespace SomeGames
             this.erkekRadioButton.Location = new System.Drawing.Point(114, 32);
             this.erkekRadioButton.Name = "erkekRadioButton";
             this.erkekRadioButton.Size = new System.Drawing.Size(68, 24);
-            this.erkekRadioButton.TabIndex = 3;
+            this.erkekRadioButton.TabIndex = 0;
             this.erkekRadioButton.TabStop = true;
             this.erkekRadioButton.Text = "Erkek";
             this.erkekRadioButton.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@ namespace SomeGames
             this.kadinRadioButton.Location = new System.Drawing.Point(114, 66);
             this.kadinRadioButton.Name = "kadinRadioButton";
             this.kadinRadioButton.Size = new System.Drawing.Size(67, 24);
-            this.kadinRadioButton.TabIndex = 5;
+            this.kadinRadioButton.TabIndex = 1;
             this.kadinRadioButton.TabStop = true;
             this.kadinRadioButton.Text = "Kadın";
             this.kadinRadioButton.UseVisualStyleBackColor = true;
@@ -118,7 +118,7 @@ namespace SomeGames
             this.label3.Location = new System.Drawing.Point(235, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 20);
-            this.label3.TabIndex = 6;
+            this.label3.TabIndex = 9;
             this.label3.Text = "Boy :";
             // 
             // label4
@@ -129,7 +129,7 @@ namespace SomeGames
             this.label4.Location = new System.Drawing.Point(235, 70);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 20);
-            this.label4.TabIndex = 8;
+            this.label4.TabIndex = 10;
             this.label4.Text = "Kilo :";
             // 
             // kiloTextBox
@@ -139,7 +139,7 @@ namespace SomeGames
             this.kiloTextBox.Location = new System.Drawing.Point(285, 70);
             this.kiloTextBox.Name = "kiloTextBox";
             this.kiloTextBox.Size = new System.Drawing.Size(50, 20);
-            this.kiloTextBox.TabIndex = 7;
+            this.kiloTextBox.TabIndex = 3;
             this.kiloTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
             // label5
@@ -150,7 +150,7 @@ namespace SomeGames
             this.label5.Location = new System.Drawing.Point(341, 30);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 20);
-            this.label5.TabIndex = 9;
+            this.label5.TabIndex = 11;
             this.label5.Text = "cm (Örn. 180)";
             // 
             // label6
@@ -161,7 +161,7 @@ namespace SomeGames
             this.label6.Location = new System.Drawing.Point(341, 70);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 20);
-            this.label6.TabIndex = 10;
+            this.label6.TabIndex = 12;
             this.label6.Text = "kg (Örn. 64,6)";
             // 
             // label7
@@ -172,7 +172,7 @@ namespace SomeGames
             this.label7.Location = new System.Drawing.Point(27, 200);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(191, 20);
-            this.label7.TabIndex = 11;
+            this.label7.TabIndex = 6;
             this.label7.Text = "Vücut Kitle İndeksi (BMI) :";
             // 
             // label8
@@ -183,7 +183,7 @@ namespace SomeGames
             this.label8.Location = new System.Drawing.Point(27, 232);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(81, 20);
-            this.label8.TabIndex = 12;
+            this.label8.TabIndex = 7;
             this.label8.Text = "İdeal Kilo :";
             // 
             // label9
@@ -194,7 +194,7 @@ namespace SomeGames
             this.label9.Location = new System.Drawing.Point(27, 262);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 20);
-            this.label9.TabIndex = 13;
+            this.label9.TabIndex = 8;
             this.label9.Text = "Sonuç :";
             // 
             // bmiLabel
@@ -205,7 +205,7 @@ namespace SomeGames
             this.bmiLabel.Location = new System.Drawing.Point(224, 200);
             this.bmiLabel.Name = "bmiLabel";
             this.bmiLabel.Size = new System.Drawing.Size(0, 20);
-            this.bmiLabel.TabIndex = 14;
+            this.bmiLabel.TabIndex = 13;
             // 
             // idealLabel
             // 

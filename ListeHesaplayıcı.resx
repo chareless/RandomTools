@@ -358,7 +358,7 @@
     <value>113, 34</value>
   </data>
   <data name="temizleButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="temizleButton.Text" xml:space="preserve">
     <value>Temizle</value>
@@ -391,7 +391,7 @@
     <value>113, 34</value>
   </data>
   <data name="urunSilButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="urunSilButton.Text" xml:space="preserve">
     <value>Son Ürünü Sil</value>
@@ -478,7 +478,7 @@
     <value>113, 34</value>
   </data>
   <data name="seciliSilButton.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>6</value>
   </data>
   <data name="seciliSilButton.Text" xml:space="preserve">
     <value>Seçili Ürünü Sil</value>
@@ -502,7 +502,7 @@
     <value>41, 20</value>
   </data>
   <data name="noTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>5</value>
   </data>
   <data name="noTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
