@@ -103,111 +103,101 @@ namespace SomeGames
                 MessageBox.Show("Hata!");
             }
         }
-
         private void rastgeleNumaraButton_Click(object sender, EventArgs e)
         {
             RastgeleNumara f2 = new RastgeleNumara();
             f2.Show();
         }
-
-        private void kronometreButton_Click(object sender, EventArgs e)
-        {
-            Kronometre f4 = new Kronometre();
-            f4.Show();
-        }
-
         private void kuraButton_Click(object sender, EventArgs e)
         {
             KuraÇek f3 = new KuraÇek();
             f3.Show();
         }
-
+        private void kronometreButton_Click(object sender, EventArgs e)
+        {
+            Kronometre f4 = new Kronometre();
+            f4.Show();
+        }
         private void hatirlaticiButton_Click(object sender, EventArgs e)
         {
             Hatırlatıcı f5 = new Hatırlatıcı();
             f5.Show();
         }
-
         private void aboutToolStripButton_Click(object sender, EventArgs e)
         {
             About f6 = new About();
             f6.Show();
         }
-
-        private void reportToolStripButton_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/#contact"); 
-        }
-
-        private void updateToolStripButton_Click(object sender, EventArgs e)
-        {
-            Update f13 = new Update();
-            f13.Show();
-        }
-
         private void hesapMakinesiButton_Click(object sender, EventArgs e)
         {
             HesapMakinesi f7 = new HesapMakinesi();
             f7.Show();
         }
-
         private void paraSayButton_Click(object sender, EventArgs e)
         {
             ParaSayar f8 = new ParaSayar();
             f8.Show();
         }
-
         private void listeHesaplaButton_Click(object sender, EventArgs e)
         {
             ListeHesaplayıcı f9 = new ListeHesaplayıcı();
             f9.Show();
         }
-
         private void notButton_Click(object sender, EventArgs e)
         {
             Not f10 = new Not();
             f10.Show();
         }
-
         private void sifreYaratButton_Click(object sender, EventArgs e)
         {
             SifreYarat f11 = new SifreYarat();
             f11.Show();
         }
-
-        private void surumToolStripButton_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/randomtools.html#version");
-        }
-
         private void kurButton_Click(object sender, EventArgs e)
         {
             Kur f12 = new Kur();
             f12.Show();
         }
-
-        private void ipButton_Click(object sender, EventArgs e)
+        private void updateToolStripButton_Click(object sender, EventArgs e)
         {
-            Ip f15 = new Ip();
-            f15.Show();
+            Update f13 = new Update();
+            f13.Show();
         }
-
         private void koronaButton_Click(object sender, EventArgs e)
         {
             Korona f14 = new Korona();
             f14.Show();
         }
-
+        private void ipButton_Click(object sender, EventArgs e)
+        {
+            Ip f15 = new Ip();
+            f15.Show();
+        }
         private void geriSayimButton_Click(object sender, EventArgs e)
         {
             GeriSayım f16 = new GeriSayım();
             f16.Show();
         }
-
         private void kitleButton_Click(object sender, EventArgs e)
         {
             Kilo f17 = new Kilo();
             f17.Show();
+        }
+        private void aritmetikButton_Click(object sender, EventArgs e)
+        {
+            Aritmetik f18 = new Aritmetik();
+            f18.Show();
+        }
+
+
+
+        private void reportToolStripButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/#contact"); 
+        }
+        private void surumToolStripButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/randomtools.html#version");
         }
     }
 }

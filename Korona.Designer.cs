@@ -99,7 +99,7 @@ namespace SomeGames
             this.turkeyLabel.AutoSize = true;
             this.turkeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.turkeyLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.turkeyLabel.Location = new System.Drawing.Point(226, 48);
+            this.turkeyLabel.Location = new System.Drawing.Point(251, 45);
             this.turkeyLabel.Name = "turkeyLabel";
             this.turkeyLabel.Size = new System.Drawing.Size(104, 31);
             this.turkeyLabel.TabIndex = 7;
@@ -121,7 +121,7 @@ namespace SomeGames
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(588, 372);
+            this.ClientSize = new System.Drawing.Size(616, 372);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.turkeyLabel);
             this.Controls.Add(this.sonOlumLabel);

@@ -15,6 +15,7 @@ namespace SomeGames
         public ListeHesaplayıcı()
         {
             InitializeComponent();
+            listView1.Columns.Add("No", 35);
             listView1.Columns.Add("Ürün", 125);
             listView1.Columns.Add("Fiyat", 125);
             listView1.Columns.Add("Adet", 125);
@@ -29,7 +30,7 @@ namespace SomeGames
             {
                 sonuc = 0;
                 string[] satirlar;
-                string hepsi = urunTextBox.Text + " " + fiyatTextBox.Text + " " + adetTextBox.Text;
+                string hepsi = sayac+1 + " " +urunTextBox.Text + " " + fiyatTextBox.Text + " " + adetTextBox.Text;
                 satirlar = hepsi.Split('\n');
                 foreach (string s in satirlar)
                 {
@@ -40,7 +41,8 @@ namespace SomeGames
                 }
                 for (int i = 0; i < sayac; i++)
                 {
-                    sonuc += Convert.ToDouble(listView1.Items[i].SubItems[1].Text)*(Convert.ToDouble(listView1.Items[i].SubItems[2].Text));
+                    if ((listView1.Items[i].SubItems[2].Text) != "")
+                        sonuc += Convert.ToDouble(listView1.Items[i].SubItems[2].Text)*(Convert.ToDouble(listView1.Items[i].SubItems[3].Text));
                 }
                 totalTextBox.Text = sonuc.ToString();
             }
@@ -76,7 +78,33 @@ namespace SomeGames
                 sonuc = 0;
                 for (int i = 0; i < sayac; i++)
                 {
-                    sonuc += Convert.ToDouble(listView1.Items[i].SubItems[1].Text) * (Convert.ToDouble(listView1.Items[i].SubItems[2].Text));
+                    if ((listView1.Items[i].SubItems[2].Text) != "")
+                        sonuc += Convert.ToDouble(listView1.Items[i].SubItems[2].Text) * (Convert.ToDouble(listView1.Items[i].SubItems[3].Text));
+                }
+                totalTextBox.Text = sonuc.ToString();
+            }
+        }
+
+        private void seciliSilButton_Click(object sender, EventArgs e)
+        {
+            bool kontrol = false;
+            for (int j = 0; j < sayac; j++)
+            {
+                if((listView1.Items[j].SubItems[0].Text)==noTextBox.Text)
+                {
+                    listView1.Items[Convert.ToInt32(noTextBox.Text)-1].SubItems[1].Text = "";
+                    listView1.Items[Convert.ToInt32(noTextBox.Text)-1].SubItems[2].Text = "";
+                    listView1.Items[Convert.ToInt32(noTextBox.Text)-1].SubItems[3].Text = "";
+                    sonuc = 0;
+                    kontrol = true;
+                }
+            }
+            if(kontrol ==true)
+            {
+                for (int i = 0; i < sayac; i++)
+                {
+                    if ((listView1.Items[i].SubItems[2].Text) != "")
+                        sonuc += Convert.ToDouble(listView1.Items[i].SubItems[2].Text) * (Convert.ToDouble(listView1.Items[i].SubItems[3].Text));
                 }
                 totalTextBox.Text = sonuc.ToString();
             }

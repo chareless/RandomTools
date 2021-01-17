@@ -41,6 +41,9 @@
             this.urunSilButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.adetTextBox = new System.Windows.Forms.TextBox();
+            this.seciliSilButton = new System.Windows.Forms.Button();
+            this.noTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listView1
@@ -126,11 +129,35 @@
             this.adetTextBox.Name = "adetTextBox";
             this.adetTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
+            // seciliSilButton
+            // 
+            this.seciliSilButton.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.seciliSilButton, "seciliSilButton");
+            this.seciliSilButton.ForeColor = System.Drawing.Color.Gold;
+            this.seciliSilButton.Name = "seciliSilButton";
+            this.seciliSilButton.UseVisualStyleBackColor = false;
+            this.seciliSilButton.Click += new System.EventHandler(this.seciliSilButton_Click);
+            // 
+            // noTextBox
+            // 
+            resources.ApplyResources(this.noTextBox, "noTextBox");
+            this.noTextBox.Name = "noTextBox";
+            this.noTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.ForeColor = System.Drawing.Color.Gold;
+            this.label5.Name = "label5";
+            // 
             // ListeHesaplayıcı
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.noTextBox);
+            this.Controls.Add(this.seciliSilButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.adetTextBox);
             this.Controls.Add(this.urunSilButton);
@@ -165,5 +192,8 @@
         private System.Windows.Forms.Button urunSilButton;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox adetTextBox;
+        private System.Windows.Forms.Button seciliSilButton;
+        private System.Windows.Forms.TextBox noTextBox;
+        private System.Windows.Forms.Label label5;
     }
 }

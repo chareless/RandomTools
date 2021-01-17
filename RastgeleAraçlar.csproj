@@ -59,6 +59,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aritmetik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aritmetik.Designer.cs">
+      <DependentUpon>Aritmetik.cs</DependentUpon>
+    </Compile>
     <Compile Include="GeriSayım.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aritmetik.resx">
+      <DependentUpon>Aritmetik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeriSayım.resx">
       <DependentUpon>GeriSayım.cs</DependentUpon>

@@ -54,6 +54,7 @@
             this.koronaButton = new System.Windows.Forms.Button();
             this.geriSayimButton = new System.Windows.Forms.Button();
             this.kitleButton = new System.Windows.Forms.Button();
+            this.aritmetikButton = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -398,12 +399,28 @@
             this.kitleButton.UseVisualStyleBackColor = false;
             this.kitleButton.Click += new System.EventHandler(this.kitleButton_Click);
             // 
+            // aritmetikButton
+            // 
+            this.aritmetikButton.BackColor = System.Drawing.Color.Firebrick;
+            this.aritmetikButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.aritmetikButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.aritmetikButton.ForeColor = System.Drawing.Color.Gold;
+            this.aritmetikButton.Location = new System.Drawing.Point(160, 290);
+            this.aritmetikButton.Margin = new System.Windows.Forms.Padding(2);
+            this.aritmetikButton.Name = "aritmetikButton";
+            this.aritmetikButton.Size = new System.Drawing.Size(112, 40);
+            this.aritmetikButton.TabIndex = 25;
+            this.aritmetikButton.Text = "Aritmetik İşlemler";
+            this.aritmetikButton.UseVisualStyleBackColor = false;
+            this.aritmetikButton.Click += new System.EventHandler(this.aritmetikButton_Click);
+            // 
             // RastgeleAraçlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(559, 374);
+            this.Controls.Add(this.aritmetikButton);
             this.Controls.Add(this.kitleButton);
             this.Controls.Add(this.geriSayimButton);
             this.Controls.Add(this.koronaButton);
@@ -465,6 +482,7 @@
         private System.Windows.Forms.Button koronaButton;
         private System.Windows.Forms.Button geriSayimButton;
         private System.Windows.Forms.Button kitleButton;
+        private System.Windows.Forms.Button aritmetikButton;
     }
 }
 
