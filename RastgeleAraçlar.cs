@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "6.0";
+        public static string guncelSurum = "7.0";
 
         private void InternetKontrol()
         {
@@ -188,7 +188,11 @@ namespace SomeGames
             Aritmetik f18 = new Aritmetik();
             f18.Show();
         }
-
+        private void yuzdelikButton_Click(object sender, EventArgs e)
+        {
+            Yuzde f19 = new Yuzde();
+            f19.Show();
+        }
 
 
         private void reportToolStripButton_Click(object sender, EventArgs e)
@@ -199,5 +203,6 @@ namespace SomeGames
         {
             System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/randomtools.html#version");
         }
+
     }
 }
