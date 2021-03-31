@@ -32,7 +32,6 @@ namespace SomeGames
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Korona));
             this.sonVakaLabel = new System.Windows.Forms.Label();
             this.vakaLabel = new System.Windows.Forms.Label();
-            this.olumTextLabel = new System.Windows.Forms.Label();
             this.olumLabel = new System.Windows.Forms.Label();
             this.sonOlumLabel = new System.Windows.Forms.Label();
             this.turkeyLabel = new System.Windows.Forms.Label();
@@ -61,23 +60,12 @@ namespace SomeGames
             this.vakaLabel.TabIndex = 2;
             this.vakaLabel.Text = "Toplam Vaka";
             // 
-            // olumTextLabel
-            // 
-            this.olumTextLabel.AutoSize = true;
-            this.olumTextLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.olumTextLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.olumTextLabel.Location = new System.Drawing.Point(359, 130);
-            this.olumTextLabel.Name = "olumTextLabel";
-            this.olumTextLabel.Size = new System.Drawing.Size(71, 24);
-            this.olumTextLabel.TabIndex = 4;
-            this.olumTextLabel.Text = "Ölüm : ";
-            // 
             // olumLabel
             // 
             this.olumLabel.AutoSize = true;
             this.olumLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.olumLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.olumLabel.Location = new System.Drawing.Point(421, 130);
+            this.olumLabel.Location = new System.Drawing.Point(359, 130);
             this.olumLabel.Name = "olumLabel";
             this.olumLabel.Size = new System.Drawing.Size(125, 24);
             this.olumLabel.TabIndex = 5;
@@ -121,12 +109,11 @@ namespace SomeGames
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(616, 372);
+            this.ClientSize = new System.Drawing.Size(646, 372);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.turkeyLabel);
             this.Controls.Add(this.sonOlumLabel);
             this.Controls.Add(this.olumLabel);
-            this.Controls.Add(this.olumTextLabel);
             this.Controls.Add(this.vakaLabel);
             this.Controls.Add(this.sonVakaLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -143,7 +130,6 @@ namespace SomeGames
         #endregion
         private System.Windows.Forms.Label sonVakaLabel;
         private System.Windows.Forms.Label vakaLabel;
-        private System.Windows.Forms.Label olumTextLabel;
         private System.Windows.Forms.Label olumLabel;
         private System.Windows.Forms.Label sonOlumLabel;
         private System.Windows.Forms.Label turkeyLabel;

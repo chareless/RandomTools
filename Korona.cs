@@ -34,20 +34,20 @@ namespace SomeGames
             {
                 vakaLabel.Text = "Toplam Vaka Sayısı : " + title.InnerText;
             }
-            HtmlNodeCollection sonVaka = dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[2]/div/div[1]/table/tbody/tr[2]/td[2]");
+            HtmlNodeCollection sonVaka = dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[1]/div[3]/strong");
             foreach (HtmlNode title in sonVaka)
             {
                 sonVakaLabel.Text = "Bildirilen Son Vaka : " + title.InnerText;
             }
-            HtmlNodeCollection toplamOlum= dokuman.DocumentNode.SelectNodes("/html/body/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[3]/div[2]");
+            HtmlNodeCollection toplamOlum= dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[3]/div[2]");
             foreach (HtmlNode title in toplamOlum)
             {
-                olumLabel.Text = title.InnerText;
+                olumLabel.Text = "Toplam Vefat Sayısı : " + title.InnerText;
             }
-            HtmlNodeCollection sonOlum = dokuman.DocumentNode.SelectNodes("/html/body/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[3]/div[3]");
+            HtmlNodeCollection sonOlum = dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[3]/div[3]/strong");
             foreach (HtmlNode title in sonOlum)
             {
-                sonOlumLabel.Text = title.InnerText;
+                sonOlumLabel.Text = "Bildirilen Son Vefat : " + title.InnerText;
             }
         }
     }

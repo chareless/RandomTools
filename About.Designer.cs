@@ -94,7 +94,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 17);
             this.label4.TabIndex = 3;
-            this.label4.Text = "v7.0";
+            this.label4.Text = "v8.0";
             // 
             // label5
             // 
@@ -115,7 +115,7 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(579, 132);
+            this.richTextBox1.Size = new System.Drawing.Size(579, 130);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -145,7 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 367);
+            this.ClientSize = new System.Drawing.Size(618, 363);
             this.Controls.Add(this.developerLabel);
             this.Controls.Add(this.licenseLabel);
             this.Controls.Add(this.richTextBox1);

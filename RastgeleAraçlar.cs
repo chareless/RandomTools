@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "7.0";
+        public static string guncelSurum = "8.0";
 
         private void InternetKontrol()
         {
@@ -36,6 +36,7 @@ namespace SomeGames
                 kurButton.Enabled = true;
                 ipButton.Enabled = true;
                 koronaButton.Enabled = true;
+                kurCevirButton.Enabled = true;
             }
             catch (Exception e)
             {
@@ -45,6 +46,7 @@ namespace SomeGames
                 kurButton.Enabled = false;
                 ipButton.Enabled = false;
                 koronaButton.Enabled = false;
+                kurCevirButton.Enabled = false;
             }
         }
 
@@ -193,6 +195,16 @@ namespace SomeGames
             Yuzde f19 = new Yuzde();
             f19.Show();
         }
+        private void kurCevirButton_Click(object sender, EventArgs e)
+        {
+            KurCevir f20 = new KurCevir();
+            f20.Show();
+        }
+        private void zamanCevirButton_Click(object sender, EventArgs e)
+        {
+            ZamanCevir f21 = new ZamanCevir();
+            f21.Show();
+        }
 
 
         private void reportToolStripButton_Click(object sender, EventArgs e)
@@ -203,6 +215,5 @@ namespace SomeGames
         {
             System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/randomtools.html#version");
         }
-
     }
 }

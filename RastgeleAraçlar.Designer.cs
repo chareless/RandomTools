@@ -56,6 +56,8 @@
             this.kitleButton = new System.Windows.Forms.Button();
             this.aritmetikButton = new System.Windows.Forms.Button();
             this.yuzdelikButton = new System.Windows.Forms.Button();
+            this.kurCevirButton = new System.Windows.Forms.Button();
+            this.zamanCevirButton = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,11 +142,11 @@
             this.kronometreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.kronometreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kronometreButton.ForeColor = System.Drawing.Color.Gold;
-            this.kronometreButton.Location = new System.Drawing.Point(160, 290);
+            this.kronometreButton.Location = new System.Drawing.Point(290, 290);
             this.kronometreButton.Margin = new System.Windows.Forms.Padding(2);
             this.kronometreButton.Name = "kronometreButton";
             this.kronometreButton.Size = new System.Drawing.Size(112, 40);
-            this.kronometreButton.TabIndex = 18;
+            this.kronometreButton.TabIndex = 19;
             this.kronometreButton.Text = "Kronometre";
             this.kronometreButton.UseVisualStyleBackColor = false;
             this.kronometreButton.Click += new System.EventHandler(this.kronometreButton_Click);
@@ -155,11 +157,11 @@
             this.hatirlaticiButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.hatirlaticiButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hatirlaticiButton.ForeColor = System.Drawing.Color.Gold;
-            this.hatirlaticiButton.Location = new System.Drawing.Point(290, 290);
+            this.hatirlaticiButton.Location = new System.Drawing.Point(420, 290);
             this.hatirlaticiButton.Margin = new System.Windows.Forms.Padding(2);
             this.hatirlaticiButton.Name = "hatirlaticiButton";
             this.hatirlaticiButton.Size = new System.Drawing.Size(112, 40);
-            this.hatirlaticiButton.TabIndex = 19;
+            this.hatirlaticiButton.TabIndex = 20;
             this.hatirlaticiButton.Text = "Hatırlatıcı";
             this.hatirlaticiButton.UseVisualStyleBackColor = false;
             this.hatirlaticiButton.Click += new System.EventHandler(this.hatirlaticiButton_Click);
@@ -314,7 +316,7 @@
             // 
             this.surumLabel.AutoSize = true;
             this.surumLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.surumLabel.Location = new System.Drawing.Point(491, 345);
+            this.surumLabel.Location = new System.Drawing.Point(491, 413);
             this.surumLabel.Name = "surumLabel";
             this.surumLabel.Size = new System.Drawing.Size(56, 20);
             this.surumLabel.TabIndex = 15;
@@ -324,7 +326,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(9, 345);
+            this.label1.Location = new System.Drawing.Point(9, 413);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 20);
             this.label1.TabIndex = 16;
@@ -334,7 +336,7 @@
             // 
             this.netLabel.AutoSize = true;
             this.netLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.netLabel.Location = new System.Drawing.Point(156, 345);
+            this.netLabel.Location = new System.Drawing.Point(156, 413);
             this.netLabel.Name = "netLabel";
             this.netLabel.Size = new System.Drawing.Size(54, 20);
             this.netLabel.TabIndex = 17;
@@ -346,11 +348,11 @@
             this.ipButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.ipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ipButton.ForeColor = System.Drawing.Color.Gold;
-            this.ipButton.Location = new System.Drawing.Point(420, 230);
+            this.ipButton.Location = new System.Drawing.Point(30, 350);
             this.ipButton.Margin = new System.Windows.Forms.Padding(2);
             this.ipButton.Name = "ipButton";
             this.ipButton.Size = new System.Drawing.Size(112, 40);
-            this.ipButton.TabIndex = 16;
+            this.ipButton.TabIndex = 21;
             this.ipButton.Text = "İp Adresim";
             this.ipButton.UseVisualStyleBackColor = false;
             this.ipButton.Click += new System.EventHandler(this.ipButton_Click);
@@ -376,11 +378,11 @@
             this.geriSayimButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.geriSayimButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.geriSayimButton.ForeColor = System.Drawing.Color.Gold;
-            this.geriSayimButton.Location = new System.Drawing.Point(30, 290);
+            this.geriSayimButton.Location = new System.Drawing.Point(160, 290);
             this.geriSayimButton.Margin = new System.Windows.Forms.Padding(2);
             this.geriSayimButton.Name = "geriSayimButton";
             this.geriSayimButton.Size = new System.Drawing.Size(112, 40);
-            this.geriSayimButton.TabIndex = 17;
+            this.geriSayimButton.TabIndex = 18;
             this.geriSayimButton.Text = "Geri Sayım";
             this.geriSayimButton.UseVisualStyleBackColor = false;
             this.geriSayimButton.Click += new System.EventHandler(this.geriSayimButton_Click);
@@ -430,12 +432,44 @@
             this.yuzdelikButton.UseVisualStyleBackColor = false;
             this.yuzdelikButton.Click += new System.EventHandler(this.yuzdelikButton_Click);
             // 
+            // kurCevirButton
+            // 
+            this.kurCevirButton.BackColor = System.Drawing.Color.Firebrick;
+            this.kurCevirButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.kurCevirButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kurCevirButton.ForeColor = System.Drawing.Color.Gold;
+            this.kurCevirButton.Location = new System.Drawing.Point(420, 230);
+            this.kurCevirButton.Margin = new System.Windows.Forms.Padding(2);
+            this.kurCevirButton.Name = "kurCevirButton";
+            this.kurCevirButton.Size = new System.Drawing.Size(112, 40);
+            this.kurCevirButton.TabIndex = 16;
+            this.kurCevirButton.Text = "Döviz Çevirici";
+            this.kurCevirButton.UseVisualStyleBackColor = false;
+            this.kurCevirButton.Click += new System.EventHandler(this.kurCevirButton_Click);
+            // 
+            // zamanCevirButton
+            // 
+            this.zamanCevirButton.BackColor = System.Drawing.Color.Firebrick;
+            this.zamanCevirButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.zamanCevirButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zamanCevirButton.ForeColor = System.Drawing.Color.Gold;
+            this.zamanCevirButton.Location = new System.Drawing.Point(30, 290);
+            this.zamanCevirButton.Margin = new System.Windows.Forms.Padding(2);
+            this.zamanCevirButton.Name = "zamanCevirButton";
+            this.zamanCevirButton.Size = new System.Drawing.Size(112, 40);
+            this.zamanCevirButton.TabIndex = 17;
+            this.zamanCevirButton.Text = "Zaman Çevirici";
+            this.zamanCevirButton.UseVisualStyleBackColor = false;
+            this.zamanCevirButton.Click += new System.EventHandler(this.zamanCevirButton_Click);
+            // 
             // RastgeleAraçlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(559, 374);
+            this.ClientSize = new System.Drawing.Size(559, 441);
+            this.Controls.Add(this.zamanCevirButton);
+            this.Controls.Add(this.kurCevirButton);
             this.Controls.Add(this.yuzdelikButton);
             this.Controls.Add(this.aritmetikButton);
             this.Controls.Add(this.kitleButton);
@@ -501,6 +535,8 @@
         private System.Windows.Forms.Button kitleButton;
         private System.Windows.Forms.Button aritmetikButton;
         private System.Windows.Forms.Button yuzdelikButton;
+        private System.Windows.Forms.Button kurCevirButton;
+        private System.Windows.Forms.Button zamanCevirButton;
     }
 }
 

@@ -101,6 +101,12 @@
     <Compile Include="Kur.Designer.cs">
       <DependentUpon>Kur.cs</DependentUpon>
     </Compile>
+    <Compile Include="KurCevir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KurCevir.Designer.cs">
+      <DependentUpon>KurCevir.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListeHesaplayıcı.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,12 @@
     <Compile Include="Yuzde.Designer.cs">
       <DependentUpon>Yuzde.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZamanCevir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZamanCevir.Designer.cs">
+      <DependentUpon>ZamanCevir.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -193,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kur.resx">
       <DependentUpon>Kur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KurCevir.resx">
+      <DependentUpon>KurCevir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListeHesaplayıcı.resx">
       <DependentUpon>ListeHesaplayıcı.cs</DependentUpon>
@@ -235,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Yuzde.resx">
       <DependentUpon>Yuzde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZamanCevir.resx">
+      <DependentUpon>ZamanCevir.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
