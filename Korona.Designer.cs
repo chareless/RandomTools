@@ -45,9 +45,9 @@ namespace SomeGames
             this.sonVakaLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.sonVakaLabel.Location = new System.Drawing.Point(43, 189);
             this.sonVakaLabel.Name = "sonVakaLabel";
-            this.sonVakaLabel.Size = new System.Drawing.Size(91, 24);
+            this.sonVakaLabel.Size = new System.Drawing.Size(106, 24);
             this.sonVakaLabel.TabIndex = 1;
-            this.sonVakaLabel.Text = "Son Vaka";
+            this.sonVakaLabel.Text = "Son Vaka : ";
             // 
             // vakaLabel
             // 
@@ -56,9 +56,9 @@ namespace SomeGames
             this.vakaLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.vakaLabel.Location = new System.Drawing.Point(43, 130);
             this.vakaLabel.Name = "vakaLabel";
-            this.vakaLabel.Size = new System.Drawing.Size(121, 24);
+            this.vakaLabel.Size = new System.Drawing.Size(136, 24);
             this.vakaLabel.TabIndex = 2;
-            this.vakaLabel.Text = "Toplam Vaka";
+            this.vakaLabel.Text = "Toplam Vaka : ";
             // 
             // olumLabel
             // 
@@ -67,9 +67,9 @@ namespace SomeGames
             this.olumLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.olumLabel.Location = new System.Drawing.Point(359, 130);
             this.olumLabel.Name = "olumLabel";
-            this.olumLabel.Size = new System.Drawing.Size(125, 24);
+            this.olumLabel.Size = new System.Drawing.Size(140, 24);
             this.olumLabel.TabIndex = 5;
-            this.olumLabel.Text = "Toplam Ölüm";
+            this.olumLabel.Text = "Toplam Ölüm : ";
             // 
             // sonOlumLabel
             // 
@@ -78,9 +78,9 @@ namespace SomeGames
             this.sonOlumLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.sonOlumLabel.Location = new System.Drawing.Point(359, 189);
             this.sonOlumLabel.Name = "sonOlumLabel";
-            this.sonOlumLabel.Size = new System.Drawing.Size(95, 24);
+            this.sonOlumLabel.Size = new System.Drawing.Size(110, 24);
             this.sonOlumLabel.TabIndex = 6;
-            this.sonOlumLabel.Text = "Son Ölüm";
+            this.sonOlumLabel.Text = "Son Ölüm : ";
             // 
             // turkeyLabel
             // 

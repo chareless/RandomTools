@@ -29,25 +29,41 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
+
             HtmlNodeCollection toplamVaka = dokuman.DocumentNode.SelectNodes("/html/body/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div/div/div[1]/div[2]");
-            foreach (HtmlNode title in toplamVaka)
+            if (toplamVaka != null)
             {
-                vakaLabel.Text = "Toplam Vaka Sayısı : " + title.InnerText;
+                foreach (HtmlNode title in toplamVaka)
+                {
+                    vakaLabel.Text = "Toplam Vaka Sayısı : " + title.InnerText;
+                }
             }
+
             HtmlNodeCollection sonVaka = dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[1]/div[3]/strong");
-            foreach (HtmlNode title in sonVaka)
+            if (sonVaka != null)
             {
-                sonVakaLabel.Text = "Bildirilen Son Vaka : " + title.InnerText;
+                foreach (HtmlNode title in sonVaka)
+                {
+                    sonVakaLabel.Text = "Bildirilen Son Vaka : " + title.InnerText;
+                }
             }
+
             HtmlNodeCollection toplamOlum= dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[3]/div[2]");
-            foreach (HtmlNode title in toplamOlum)
+            if (toplamOlum != null)
             {
-                olumLabel.Text = "Toplam Vefat Sayısı : " + title.InnerText;
+                foreach (HtmlNode title in toplamOlum)
+                {
+                    olumLabel.Text = "Toplam Vefat Sayısı : " + title.InnerText;
+                }
             }
+
             HtmlNodeCollection sonOlum = dokuman.DocumentNode.SelectNodes("//*[@id='yDmH0d']/c-wiz/div/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/div[1]/div/div[3]/div[3]/strong");
-            foreach (HtmlNode title in sonOlum)
+            if (sonOlum != null)
             {
-                sonOlumLabel.Text = "Bildirilen Son Vefat : " + title.InnerText;
+                foreach (HtmlNode title in sonOlum)
+                {
+                    sonOlumLabel.Text = "Bildirilen Son Vefat : " + title.InnerText;
+                }
             }
         }
     }
