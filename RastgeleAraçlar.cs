@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "8.1";
+        public static string guncelSurum = "8.2";
 
         private void InternetKontrol()
         {
@@ -209,11 +209,11 @@ namespace SomeGames
 
         private void reportToolStripButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/#contact"); 
+            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/#contact"); 
         }
         private void surumToolStripButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/randomtools.html#version");
+            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/randomtools.html#version");
         }
     }
 }

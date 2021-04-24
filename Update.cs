@@ -23,7 +23,7 @@ namespace SomeGames
         }
         private void guncellemeDenetle()
         {
-            Uri url = new Uri("http://www.denizsaribayir.cf/randomtools.html");
+            Uri url = new Uri("http://www.saribayirdeniz.cf/randomtools.html");
             WebClient client = new WebClient();
             client.Encoding = Encoding.UTF8;
             string html = client.DownloadString(url);
