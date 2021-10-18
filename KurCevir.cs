@@ -19,9 +19,9 @@ namespace SomeGames
             InitializeComponent();
         }
 
-        private static string dolarUrl = "https://www.bloomberght.com/doviz/dolar";
-        private static string euroUrl = "https://www.bloomberght.com/doviz/euro";
-        private static string sterlinUrl = "https://www.bloomberght.com/doviz/ingiliz-sterlini";
+        private static string dolarUrl = "https://kur.doviz.com/serbest-piyasa/amerikan-dolari";
+        private static string euroUrl = "https://kur.doviz.com/serbest-piyasa/euro";
+        private static string sterlinUrl = "https://kur.doviz.com/serbest-piyasa/sterlin";
 
         private static double dolar;
         private static double euro;
@@ -45,7 +45,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[1]/section/div/div/div[1]/div[2]/div[1]/h1/span[1]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
             foreach (HtmlNode title in titles)
             {
                 dolar = Convert.ToSingle(title.InnerText);
@@ -59,7 +59,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[1]/section/div/div/div[1]/div[2]/div[1]/h1/span[1]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
             foreach (HtmlNode title in titles)
             {
                 euro = Convert.ToSingle(title.InnerText);
@@ -73,7 +73,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[1]/section/div/div/div[1]/div[2]/div[1]/h1/span[1]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
             foreach (HtmlNode title in titles)
             {
                 sterlin = Convert.ToSingle(title.InnerText);

@@ -158,10 +158,10 @@ namespace SomeGames
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label10.Location = new System.Drawing.Point(4, 329);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(404, 26);
+            this.label10.Size = new System.Drawing.Size(371, 26);
             this.label10.TabIndex = 17;
-            this.label10.Text = "Türk lirası verileri \"www.bloomberght.com\" sitesinden alınmıştır. Diğer veriler t" +
-    "ürk lirası\r\n üzerinden dönüştürüldüğü için hata payı vardır. ";
+            this.label10.Text = "Türk lirası verileri \"www.doviz.com\" sitesinden alınmıştır. Diğer veriler türk li" +
+    "rası\r\n üzerinden dönüştürüldüğü için hata payı vardır. ";
             // 
             // KurCevir
             // 

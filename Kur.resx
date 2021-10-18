@@ -658,13 +658,13 @@
     <value>12, 297</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 13</value>
+    <value>219, 13</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Veriler "www.bloomberght.com" sitesinden alınmıştır.</value>
+    <value>Veriler "www.doviz.com" sitesinden alınmıştır.</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
