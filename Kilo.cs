@@ -57,17 +57,17 @@ namespace SomeGames
                     sonucLabel.Text = "İdeal kilonuzun altındasınız.";
                     sonucLabel.ForeColor = Color.DarkRed;
                 }
-                if(bmi>18.5 && bmi<24.9)
+                if(bmi>=18.5 && bmi<25)
                 {
                     sonucLabel.Text = "Kilonuz normal.";
                     sonucLabel.ForeColor = Color.LimeGreen;
                 }
-                if(bmi>25 && bmi<29.9)
+                if(bmi>=25 && bmi<30)
                 {
                     sonucLabel.Text = "İdeal kilonuzun üstündesiniz.";
                     sonucLabel.ForeColor = Color.DarkRed;
                 }
-                if (bmi > 30)
+                if (bmi >= 30)
                 {
                     sonucLabel.Text = "Obez.";
                     sonucLabel.ForeColor = Color.DarkRed;
