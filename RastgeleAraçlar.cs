@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "8.5";
+        public static string guncelSurum = "8.6";
 
         private void InternetKontrol()
         {

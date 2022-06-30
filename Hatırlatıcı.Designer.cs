@@ -57,7 +57,7 @@
             this.alarmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.alarmButton.ForeColor = System.Drawing.Color.Gold;
             this.alarmButton.Location = new System.Drawing.Point(92, 161);
-            this.alarmButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.alarmButton.Margin = new System.Windows.Forms.Padding(2);
             this.alarmButton.Name = "alarmButton";
             this.alarmButton.Size = new System.Drawing.Size(92, 29);
             this.alarmButton.TabIndex = 5;
@@ -68,7 +68,7 @@
             // saatTextBox
             // 
             this.saatTextBox.Location = new System.Drawing.Point(92, 76);
-            this.saatTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.saatTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.saatTextBox.Name = "saatTextBox";
             this.saatTextBox.Size = new System.Drawing.Size(151, 20);
             this.saatTextBox.TabIndex = 2;
@@ -76,7 +76,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(92, 39);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker1.TabIndex = 1;
@@ -84,7 +84,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(318, 39);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker2.TabIndex = 4;
@@ -107,7 +107,7 @@
             // mesajTextBox
             // 
             this.mesajTextBox.Location = new System.Drawing.Point(92, 113);
-            this.mesajTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mesajTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.mesajTextBox.Name = "mesajTextBox";
             this.mesajTextBox.Size = new System.Drawing.Size(151, 20);
             this.mesajTextBox.TabIndex = 3;
@@ -186,7 +186,7 @@
             this.Controls.Add(this.alarmButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Hatırlatıcı";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

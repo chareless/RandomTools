@@ -38,7 +38,7 @@
             // xTextBox
             // 
             this.xTextBox.Location = new System.Drawing.Point(71, 62);
-            this.xTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.xTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.xTextBox.MaxLength = 10;
             this.xTextBox.Name = "xTextBox";
             this.xTextBox.Size = new System.Drawing.Size(62, 20);
@@ -64,7 +64,7 @@
             this.uretButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.uretButton.ForeColor = System.Drawing.Color.Gold;
             this.uretButton.Location = new System.Drawing.Point(71, 132);
-            this.uretButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.uretButton.Margin = new System.Windows.Forms.Padding(2);
             this.uretButton.Name = "uretButton";
             this.uretButton.Size = new System.Drawing.Size(131, 35);
             this.uretButton.TabIndex = 2;
@@ -75,7 +75,7 @@
             // yTextBox
             // 
             this.yTextBox.Location = new System.Drawing.Point(141, 62);
-            this.yTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.yTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.yTextBox.Name = "yTextBox";
             this.yTextBox.Size = new System.Drawing.Size(62, 20);
             this.yTextBox.TabIndex = 1;
@@ -94,7 +94,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "RastgeleNumara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

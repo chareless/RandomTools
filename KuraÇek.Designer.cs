@@ -41,9 +41,10 @@
             // 
             // katilimciRichTextBox
             // 
-            this.katilimciRichTextBox.Location = new System.Drawing.Point(12, 34);
+            this.katilimciRichTextBox.Location = new System.Drawing.Point(9, 28);
+            this.katilimciRichTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.katilimciRichTextBox.Name = "katilimciRichTextBox";
-            this.katilimciRichTextBox.Size = new System.Drawing.Size(611, 266);
+            this.katilimciRichTextBox.Size = new System.Drawing.Size(459, 217);
             this.katilimciRichTextBox.TabIndex = 0;
             this.katilimciRichTextBox.Text = "";
             // 
@@ -51,17 +52,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 17);
+            this.label1.Size = new System.Drawing.Size(229, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Her satırda ayrı bir katılımcı olacak şekilde yazın\r\n";
             // 
             // kisiTextBox
             // 
-            this.kisiTextBox.Location = new System.Drawing.Point(171, 321);
+            this.kisiTextBox.Location = new System.Drawing.Point(128, 261);
+            this.kisiTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.kisiTextBox.Name = "kisiTextBox";
-            this.kisiTextBox.Size = new System.Drawing.Size(100, 22);
+            this.kisiTextBox.Size = new System.Drawing.Size(76, 20);
             this.kisiTextBox.TabIndex = 2;
             this.kisiTextBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
@@ -69,9 +72,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label2.Location = new System.Drawing.Point(12, 321);
+            this.label2.Location = new System.Drawing.Point(9, 261);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 17);
+            this.label2.Size = new System.Drawing.Size(116, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Kazanacak Kişi Sayısı :";
             // 
@@ -79,17 +83,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label3.Location = new System.Drawing.Point(287, 321);
+            this.label3.Location = new System.Drawing.Point(215, 261);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 17);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Sonuçlar :";
             // 
             // sonucRichTextBox
             // 
-            this.sonucRichTextBox.Location = new System.Drawing.Point(365, 318);
+            this.sonucRichTextBox.Location = new System.Drawing.Point(274, 258);
+            this.sonucRichTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sonucRichTextBox.Name = "sonucRichTextBox";
-            this.sonucRichTextBox.Size = new System.Drawing.Size(258, 157);
+            this.sonucRichTextBox.Size = new System.Drawing.Size(194, 128);
             this.sonucRichTextBox.TabIndex = 5;
             this.sonucRichTextBox.Text = "";
             // 
@@ -99,9 +105,10 @@
             this.kuraButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.kuraButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kuraButton.ForeColor = System.Drawing.Color.Gold;
-            this.kuraButton.Location = new System.Drawing.Point(171, 365);
+            this.kuraButton.Location = new System.Drawing.Point(128, 297);
+            this.kuraButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.kuraButton.Name = "kuraButton";
-            this.kuraButton.Size = new System.Drawing.Size(100, 33);
+            this.kuraButton.Size = new System.Drawing.Size(75, 27);
             this.kuraButton.TabIndex = 6;
             this.kuraButton.Text = "Kura Çek";
             this.kuraButton.UseVisualStyleBackColor = false;
@@ -113,9 +120,10 @@
             this.temizleButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.temizleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.temizleButton.ForeColor = System.Drawing.Color.Gold;
-            this.temizleButton.Location = new System.Drawing.Point(171, 430);
+            this.temizleButton.Location = new System.Drawing.Point(128, 349);
+            this.temizleButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.temizleButton.Name = "temizleButton";
-            this.temizleButton.Size = new System.Drawing.Size(100, 33);
+            this.temizleButton.Size = new System.Drawing.Size(75, 27);
             this.temizleButton.TabIndex = 7;
             this.temizleButton.Text = "Temizle";
             this.temizleButton.UseVisualStyleBackColor = false;
@@ -123,10 +131,10 @@
             // 
             // KuraÇek
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(653, 500);
+            this.ClientSize = new System.Drawing.Size(490, 406);
             this.Controls.Add(this.temizleButton);
             this.Controls.Add(this.kuraButton);
             this.Controls.Add(this.sonucRichTextBox);
@@ -137,6 +145,7 @@
             this.Controls.Add(this.katilimciRichTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "KuraÇek";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
