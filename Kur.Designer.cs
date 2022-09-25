@@ -46,6 +46,8 @@
             this.yarimLabel = new System.Windows.Forms.Label();
             this.cumhuriyetLabel = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.tamLabel = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -142,11 +144,24 @@
             resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
             // 
+            // tamLabel
+            // 
+            resources.ApplyResources(this.tamLabel, "tamLabel");
+            this.tamLabel.Name = "tamLabel";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.ForeColor = System.Drawing.Color.Gold;
+            this.label12.Name = "label12";
+            // 
             // Kur
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
+            this.Controls.Add(this.tamLabel);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cumhuriyetLabel);
             this.Controls.Add(this.yarimLabel);
@@ -191,5 +206,7 @@
         private System.Windows.Forms.Label yarimLabel;
         private System.Windows.Forms.Label cumhuriyetLabel;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label tamLabel;
+        private System.Windows.Forms.Label label12;
     }
 }

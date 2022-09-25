@@ -22,6 +22,7 @@ namespace SomeGames
         private static string dolarUrl = "https://kur.doviz.com/serbest-piyasa/amerikan-dolari";
         private static string euroUrl = "https://kur.doviz.com/serbest-piyasa/euro";
         private static string sterlinUrl = "https://kur.doviz.com/serbest-piyasa/sterlin";
+        private static string selectedNode = "/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]";
 
         private static double dolar;
         private static double euro;
@@ -45,7 +46,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes(selectedNode);
             foreach (HtmlNode title in titles)
             {
                 dolar = Convert.ToSingle(title.InnerText);
@@ -59,7 +60,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes(selectedNode);
             foreach (HtmlNode title in titles)
             {
                 euro = Convert.ToSingle(title.InnerText);
@@ -73,7 +74,7 @@ namespace SomeGames
             string html = client.DownloadString(url);
             HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
             dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]");
+            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes(selectedNode);
             foreach (HtmlNode title in titles)
             {
                 sterlin = Convert.ToSingle(title.InnerText);
