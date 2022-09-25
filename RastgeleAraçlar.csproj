@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2F2B7644-5E49-4D97-AEE6-EE9B835B7B92}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SomeGames</RootNamespace>
-    <AssemblyName>SomeGames</AssemblyName>
+    <RootNamespace>RandomTools</RootNamespace>
+    <AssemblyName>RandomTools</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -241,6 +241,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SifreYarat.resx">
       <DependentUpon>SifreYarat.cs</DependentUpon>
