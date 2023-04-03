@@ -53,9 +53,9 @@ namespace SomeGames
             this.ipLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ipLabel.Location = new System.Drawing.Point(104, 41);
             this.ipLabel.Name = "ipLabel";
-            this.ipLabel.Size = new System.Drawing.Size(25, 24);
+            this.ipLabel.Size = new System.Drawing.Size(26, 24);
             this.ipLabel.TabIndex = 1;
-            this.ipLabel.Text = "ip";
+            this.ipLabel.Text = "IP";
             this.ipLabel.Click += new System.EventHandler(this.ipLabel_Click);
             // 
             // label10
@@ -83,7 +83,7 @@ namespace SomeGames
             this.MaximizeBox = false;
             this.Name = "Ip";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ip Adresim";
+            this.Text = "IP Adresim";
             this.ResumeLayout(false);
             this.PerformLayout();
 

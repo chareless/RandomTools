@@ -22,7 +22,7 @@ namespace SomeGames
             InternetKontrol();
         }
 
-        public static string guncelSurum = "8.7";
+        public static string guncelSurum = "8.8";
 
         private void InternetKontrol()
         {
@@ -35,7 +35,7 @@ namespace SomeGames
                 updateToolStripButton.Enabled = true;
                 kurButton.Enabled = true;
                 ipButton.Enabled = true;
-                koronaButton.Enabled = true;
+                //koronaButton.Enabled = true;
                 kurCevirButton.Enabled = true;
             }
             catch (Exception e)
@@ -209,11 +209,11 @@ namespace SomeGames
 
         private void reportToolStripButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/#contact"); 
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/#contact"); 
         }
         private void surumToolStripButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/randomtools.html#version");
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/randomtools.html#version");
         }
     }
 }

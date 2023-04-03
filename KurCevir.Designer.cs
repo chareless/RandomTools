@@ -64,6 +64,7 @@ namespace SomeGames
             this.miktarTextBox.Name = "miktarTextBox";
             this.miktarTextBox.Size = new System.Drawing.Size(98, 26);
             this.miktarTextBox.TabIndex = 1;
+            this.miktarTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
             // label1
             // 

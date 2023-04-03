@@ -22,7 +22,7 @@ namespace SomeGames
         private static string dolarUrl = "https://kur.doviz.com/serbest-piyasa/amerikan-dolari";
         private static string euroUrl = "https://kur.doviz.com/serbest-piyasa/euro";
         private static string sterlinUrl = "https://kur.doviz.com/serbest-piyasa/sterlin";
-        private static string selectedNode = "/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]";
+        private static string selectedNode = "/html/body/div[3]/div[2]/div[1]/div[2]/div/div[1]/div[2]";
 
         private static double dolar;
         private static double euro;
@@ -87,81 +87,89 @@ namespace SomeGames
             {
                 miktar = Convert.ToSingle(miktarTextBox.Text);
 
-                kur();
+                try
+                {
+                    kur();
+                }
+                catch
+                {
+                    sonucLabel.Text = "Hatalı Kur Bilgisi!";
+                    return;
+                }
 
                 if (comboBox1.Text == "Türk Lirası" && comboBox2.Text == "Dolar")
                 {
-                    sonuc = miktar / dolar;
+                    sonuc = Math.Round(miktar,4) / dolar;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " TL = " + sonuc.ToString() + " Dolar";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " TL = " + sonuc.ToString() + " Dolar";
                 }
                 else if (comboBox1.Text == "Türk Lirası" && comboBox2.Text == "Euro")
                 {
-                    sonuc = miktar / euro;
+                    sonuc = Math.Round(miktar, 4) / euro;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " TL = " + sonuc.ToString() + " Euro";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " TL = " + sonuc.ToString() + " Euro";
                 }
                 else if (comboBox1.Text == "Türk Lirası" && comboBox2.Text == "Sterlin")
                 {
-                    sonuc = miktar / sterlin;
+                    sonuc = Math.Round(miktar, 4) / sterlin;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " TL = " + sonuc.ToString() + " Sterlin";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " TL = " + sonuc.ToString() + " Sterlin";
                 }
 
                 else if (comboBox1.Text == "Dolar" && comboBox2.Text == "Türk Lirası")
                 {
-                    sonuc = miktar * dolar;
+                    sonuc = Math.Round(miktar, 4) * dolar;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Dolar = " + sonuc.ToString() + " TL";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Dolar = " + sonuc.ToString() + " TL";
                 }
                 else if (comboBox1.Text == "Euro" && comboBox2.Text == "Türk Lirası")
                 {
-                    sonuc = miktar * euro;
+                    sonuc = Math.Round(miktar, 4) * euro;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Euro = " + sonuc.ToString() + " TL";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Euro = " + sonuc.ToString() + " TL";
                 }
                 else if (comboBox1.Text == "Sterlin" && comboBox2.Text == "Türk Lirası")
                 {
-                    sonuc = miktar * sterlin;
+                    sonuc = Math.Round(miktar, 4) * sterlin;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Sterlin = " + sonuc.ToString() + " TL";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Sterlin = " + sonuc.ToString() + " TL";
                 }
 
                 else if (comboBox1.Text == "Dolar" && comboBox2.Text == "Euro")
                 {
-                    sonuc = miktar * dolar / euro;
+                    sonuc = Math.Round(miktar, 4) * dolar / euro;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Dolar = " + sonuc.ToString() + " Euro";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Dolar = " + sonuc.ToString() + " Euro";
                 }
                 else if (comboBox1.Text == "Dolar" && comboBox2.Text == "Sterlin")
                 {
-                    sonuc = miktar * dolar / sterlin;
+                    sonuc = Math.Round(miktar, 4) * dolar / sterlin;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Dolar = " + sonuc.ToString() + " Sterlin";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Dolar = " + sonuc.ToString() + " Sterlin";
                 }
                 else if (comboBox1.Text == "Euro" && comboBox2.Text == "Dolar")
                 {
-                    sonuc = miktar * euro / dolar;
+                    sonuc = Math.Round(miktar, 4) * euro / dolar;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Euro = " + sonuc.ToString() + " Dolar";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Euro = " + sonuc.ToString() + " Dolar";
                 }
                 else if (comboBox1.Text == "Euro" && comboBox2.Text == "Sterlin")
                 {
-                    sonuc = miktar * euro / sterlin;
+                    sonuc = Math.Round(miktar, 4) * euro / sterlin;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Euro = " + sonuc.ToString() + " Sterlin";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Euro = " + sonuc.ToString() + " Sterlin";
                 }
                 else if (comboBox1.Text == "Sterlin" && comboBox2.Text == "Dolar")
                 {
-                    sonuc = miktar * sterlin / dolar;
+                    sonuc = Math.Round(miktar, 4) * sterlin / dolar;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Sterlin = " + sonuc.ToString() + " Dolar";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Sterlin = " + sonuc.ToString() + " Dolar";
                 }
                 else if (comboBox1.Text == "Sterlin" && comboBox2.Text == "Euro")
                 {
-                    sonuc = miktar * sterlin / euro;
+                    sonuc = Math.Round(miktar, 4) * sterlin / euro;
                     sonuc = Math.Round(sonuc, 4);
-                    sonucLabel.Text = miktar + " Sterlin = " + sonuc.ToString() + " Euro";
+                    sonucLabel.Text = Math.Round(miktar, 4) + " Sterlin = " + sonuc.ToString() + " Euro";
                 }
                 else
                 {
@@ -182,6 +190,11 @@ namespace SomeGames
             sonucLabel.Text = "";
             comboBox1.SelectedIndex = -1;
             comboBox2.SelectedIndex = -1;
+        }
+
+        private void textBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != ',';
         }
     }
 }

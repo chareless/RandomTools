@@ -353,13 +353,14 @@
             this.ipButton.Name = "ipButton";
             this.ipButton.Size = new System.Drawing.Size(112, 40);
             this.ipButton.TabIndex = 21;
-            this.ipButton.Text = "İp Adresim";
+            this.ipButton.Text = "IP Adresim";
             this.ipButton.UseVisualStyleBackColor = false;
             this.ipButton.Click += new System.EventHandler(this.ipButton_Click);
             // 
             // koronaButton
             // 
             this.koronaButton.BackColor = System.Drawing.Color.Firebrick;
+            this.koronaButton.Enabled = false;
             this.koronaButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.koronaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.koronaButton.ForeColor = System.Drawing.Color.Gold;

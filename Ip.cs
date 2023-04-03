@@ -24,16 +24,24 @@ namespace SomeGames
         static string dns;
         private void ipGoster()
         {
-            WebClient wc = new WebClient();
-            dns = wc.DownloadString("https://www.ipnedir.com/");
-            dns = (new System.Text.RegularExpressions.Regex(@"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b")).Match(dns).Value;
-            wc.Dispose();
-            ipLabel.Text = dns;
+            try
+            {
+                WebClient wc = new WebClient();
+                dns = wc.DownloadString("https://www.ipnedir.com/");
+                dns = (new System.Text.RegularExpressions.Regex(@"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b")).Match(dns).Value;
+                wc.Dispose();
+                ipLabel.Text = dns;
+            }
+            catch(Exception e)
+            {
+                ipLabel.Text = "IP adresi bulunamadı.";
+            }
+            
         }
         private void ipLabel_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(dns);
-            MessageBox.Show("İp Adresi Kopyalandı.");
+            MessageBox.Show("IP Adresi Kopyalandı.");
         }
     }
 }
